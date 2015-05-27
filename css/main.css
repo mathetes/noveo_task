@@ -1,0 +1,128 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+  overflow-x:hidden;
+}
+
+.wrapper {
+	max-width: 1024px;
+	min-width: 320px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.top_header {
+	max-width: 1024px;
+}
+
+.header_topline {
+	background-color: #43484C;
+	color: #fff;
+}
+
+div.column figure.fixedratio {
+  padding-top: 57%;
+  background-size: cover;
+  -moz-background-size: cover;
+  /* Firefox 3.6 */
+  background-position: center;
+  /* Internet Explorer 7/8 */
+  margin: 0;
+  background: #19b4c6;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #19b4c6 0%, #17b2c5 33%, #0ca3b9 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #19b4c6), color-stop(33%, #17b2c5), color-stop(100%, #0ca3b9));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #19b4c6 0%, #17b2c5 33%, #0ca3b9 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #19b4c6 0%, #17b2c5 33%, #0ca3b9 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #19b4c6 0%, #17b2c5 33%, #0ca3b9 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, #19b4c6 0%, #17b2c5 33%, #0ca3b9 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19b4c6', endColorstr='#0ca3b9',GradientType=1 );
+  /* IE6-9 */
+  position: relative; }
+  div.column figure.fixedratio h1 {
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    line-height: 150%;
+    font-size: 56px; }
+    div.column figure.fixedratio h1 #h1-span {
+      color: #9dccd7; }
+    div.column figure.fixedratio h1 #sign-prop {
+      float: right; }
+
+
+#frase {
+  color: #fff;  
+  display: table;
+  width:100%;
+  }
+  #frase .flexible {
+    width: 77%;
+    padding: 5% 0;
+    background: #27212c;
+    display:table-cell;
+    }
+    #frase a h2 {
+      font-size: 30px;
+      padding-left:5%; 
+
+      }
+      #frase .flexible a {
+        color: #9282a0;
+        text-decoration: none; }
+
+  #frase .pink-block {
+    width: 23%;
+    padding: 5% 0;
+    background: #bc3183;
+    display:table-cell;
+    }
+    #frase .pink-block i {
+      padding-left: 45%;
+      color:#fff;
+      }
+
+
+.slider .slides {
+  float: left;
+  width: 33.33%; }
+  .slider .slides img {
+    width: 100%; }
+
+
+#text2col {
+  overflow: hidden;
+  background-color: #ebebeb;
+  padding: 5%; }
+  #text2col h2 {
+    color: #088ca5; }
+  #text2col article {
+    column-count: 2;
+    column-gap: 64px;
+    -moz-column-count: 2;
+    -moz-column-gap: 64px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 64px; }
+    #text2col article p {
+      margin: 0;
+      padding-bottom: 50px;
+      max-height: 290px; }
+#top {
+  cursor:pointer;
+
+  text-align: center;
+}
+  #top img {
+    width: 50px;
+    height:50px;
+
+  }

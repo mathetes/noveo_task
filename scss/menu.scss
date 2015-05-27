@@ -1,0 +1,124 @@
+.top-menu{
+  color:#fff;
+  padding:5% 0;
+  nav {
+      background-color: #43484C;
+    button {
+      display:none;
+    }
+    h3 {
+      display:none;
+      margin:0;
+      }
+    ul {
+      margin:0;
+      li {
+        list-style:none;
+        display:inline-block;
+        width:auto;
+        margin-right: 5%;
+        border-bottom: 2px solid #43484C;
+        &:hover{
+          border-bottom: 2px solid white;
+          }
+        a {
+          text-decoration:none;
+          text-transform:uppercase;
+          color:#ebebeb;
+          font-size:15px;
+          padding:8px;
+          -webkit-transition: all .25s;
+          -o-transition: all .25s;
+          transition: all .25s;
+          &:hover {
+            text-decoration:none;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width : 880px) {
+        .top-menu nav ul li a {
+              font-size: 10px;
+              }
+}
+
+
+@media only screen and (max-width : 640px) {
+   .top-menu{
+    min-width:360px;
+    padding:0;
+    nav {
+      position: relative;
+      button {
+        display:block;
+        position: absolute;
+        height: 100%;
+        right: 0;
+        padding: 0 25px;
+        border: 0;
+        outline: none;
+        color: #fff;
+        cursor: pointer;
+        background-color: #202529;
+        .hamburger {
+          position: relative;
+          width: 32px;
+          height: 4px;
+          background: #fff;
+          margin: auto;
+          &:before, 
+          &:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 32px;
+            height: 4px;
+            background: #fff;
+          }
+
+          &:before {
+            top: -8px;
+          }
+
+          &:after {
+            bottom: -8px;
+          }
+        }
+      }
+      h3 {
+        display:block;
+        font-size:3.5vw;
+        margin-left:5%; 
+        margin-top:0;
+        margin-left: 0;
+        padding:5% 0 5% 5%;
+      }
+      .menu {
+        display:none;
+      }
+      .menu-open {
+          display:block;
+      }
+        ul {
+          padding:1%;
+          position:absolute;
+          right:0;
+          top:100%;
+          width:180px;
+          z-index:1000;
+          background-color: #43484C;
+          li {
+            margin-right:0;
+            line-height: 2.5;
+            width:100%;
+            a {
+              font-size: 14px;
+              }
+          }
+        }
+      }     
+    }
+  }
+

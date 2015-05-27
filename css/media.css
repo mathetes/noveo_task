@@ -1,0 +1,91 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1024px) {
+	#frase .flexible span {
+		font-size: 20px;
+	}	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 980px) {
+	.top-menu nav ul li a {
+		font-size: 14px;
+	}
+
+	#frase a h2 {
+    font-size: 15px;
+    padding-left:5%; 
+    }
+
+	div.column figure.fixedratio h1 {
+    font-size: 35px; }	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 640px) {
+	.top-menu {
+		padding:6% 0;
+	}
+
+	.top_menu nav h3 {
+		display:block;
+		padding-left: 5%;
+		margin: 0;
+	}
+
+	.top_menu ul {
+		position: absolute;
+		float:none;
+		right:0;
+		top:94%;
+		z-index: 10;
+		background-color: #43484C;
+		max-width:35%;
+		padding-left: 10px;
+		text-align: left;				
+	}
+	.top_menu_button, 
+	.top_menu_name {
+		display:block;
+		font-size: 14px;
+
+	}
+	.top_menu_button{
+		float:right;
+		position: absolute;
+		top:22%;
+		right:5%;
+	}
+
+	#frase a h2 {
+    font-size: 11px;
+    }
+	.slider .slides {
+		float:none;
+		width:100%;
+}
+#text2col article {
+    column-count: 1;
+    column-gap: 64px;
+    -moz-column-count: 1;
+    -moz-column-gap: 64px;
+    -webkit-column-count: 1;
+    -webkit-column-gap: 64px; }
+#frase .flexible span {
+	font-size: 8px;		
+}
+div.column figure.fixedratio h1 {
+   font-size: 25px; }
+figure.fixedratio h1 span {
+   font-size: 10px; }
+
+}   	
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	#frase .flexible span {
+	font-size: 6px;		
+	}
+	div.column figure.fixedratio h1 {
+    font-size: 12px; }
+}

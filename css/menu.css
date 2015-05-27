@@ -1,0 +1,96 @@
+.top-menu {
+  color: #fff;
+  padding: 5% 0; }
+  .top-menu nav {
+    background-color: #43484C; }
+    .top-menu nav button {
+      display: none; }
+    .top-menu nav h3 {
+      display: none;
+      margin: 0; }
+    .top-menu nav ul {
+      margin: 0; }
+      .top-menu nav ul li {
+        list-style: none;
+        display: inline-block;
+        width: auto;
+        margin-right: 5%;
+        border-bottom: 2px solid #43484C; }
+        .top-menu nav ul li:hover {
+          border-bottom: 2px solid white; }
+        .top-menu nav ul li a {
+          text-decoration: none;
+          text-transform: uppercase;
+          color: #ebebeb;
+          font-size: 15px;
+          padding: 8px;
+          -webkit-transition: all .25s;
+          -o-transition: all .25s;
+          transition: all .25s; }
+          .top-menu nav ul li a:hover {
+            text-decoration: none; }
+
+@media only screen and (max-width: 880px) {
+  .top-menu nav ul li a {
+    font-size: 10px; } }
+@media only screen and (max-width: 640px) {
+  .top-menu {
+    min-width: 360px;
+    padding: 0; }
+    .top-menu nav {
+      position: relative; }
+      .top-menu nav button {
+        display: block;
+        position: absolute;
+        height: 100%;
+        right: 0;
+        padding: 0 25px;
+        border: 0;
+        outline: none;
+        color: #fff;
+        cursor: pointer;
+        background-color: #202529; }
+        .top-menu nav button .hamburger {
+          position: relative;
+          width: 32px;
+          height: 4px;
+          background: #fff;
+          margin: auto; }
+          .top-menu nav button .hamburger:before, .top-menu nav button .hamburger:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 32px;
+            height: 4px;
+            background: #fff; }
+          .top-menu nav button .hamburger:before {
+            top: -8px; }
+          .top-menu nav button .hamburger:after {
+            bottom: -8px; }
+      .top-menu nav h3 {
+        display: block;
+        font-size: 3.5vw;
+        margin-left: 5%;
+        margin-top: 0;
+        margin-left: 0;
+        padding: 5% 0 5% 5%; }
+      .top-menu nav .menu {
+        display: none; }
+      .top-menu nav .menu-open {
+        display: block; }
+      .top-menu nav ul {
+        padding: 1%;
+        position: absolute;
+        right: 0;
+        top: 100%;
+        width: 180px;
+        z-index: 1000;
+        background-color: #43484C; }
+        .top-menu nav ul li {
+          margin-right: 0;
+          line-height: 2.5;
+          width: 100%; }
+          .top-menu nav ul li a {
+            font-size: 14px; } }
+
+/*# sourceMappingURL=menu.css.map */
